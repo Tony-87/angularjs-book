@@ -12,7 +12,7 @@ app.config(['$routeProvider', function($routeProvider) {
             return MultiRecipeLoader();
           }]
         },
-        templateUrl:'/views/list.html'
+        templateUrl:'views/list.html'
       }).when('/edit/:recipeId', {
         controller: 'EditCtrl',
         resolve: {
