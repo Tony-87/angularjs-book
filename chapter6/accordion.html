@@ -3,6 +3,7 @@
 <html ng-app='appModule'>
 <head>
   <title>Accordion</title>
+  <meta charset="utf-8">
   <script src="../lib/angular.min.js"></script>
   <link href="accordion.css" rel='stylesheet'>
 </head>
@@ -14,12 +15,13 @@
         {{expander.text}}
       </expander>
     </accordion>
+
   </body>
 
 <script>
   function SomeController($scope) {
     $scope.expanders = [
-      {title: 'Click me to expand',
+      {title: 'Click me to expand2',
         text: 'Hi there folks, I am the content that was hidden but is now shown.'},
       {title: 'Click this',
         text: 'I am even better text than you have seen previously'},
